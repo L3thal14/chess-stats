@@ -1,5 +1,6 @@
 {
   "name": "react-chess-api",
+  "homepage": "http://l3thal14.github.io/chess-stats",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "chart.js": "^2.9.4",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.2",
@@ -18,6 +20,8 @@
     "styled-components": "^5.2.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

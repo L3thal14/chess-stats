@@ -66,7 +66,7 @@ function StatsComponent(props) {
             style={{ fontWeight: "bold", color: "#ffffff" }}
           >
             <Link
-              href="/"
+              href="/chess-stats"
               style={{
                 textDecoration: "none",
                 color: "#ffff",
